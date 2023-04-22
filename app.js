@@ -29,7 +29,7 @@ var createNewTaskElement = function (taskString) {
   const deleteButton = document.createElement("button"); //delete button
   const deleteButtonImg = document.createElement("img"); //delete button image
 
-  listItem.className = "list-incompleted__item list-item";
+  listItem.className = "list-item";
 
   label.innerText = taskString;
   label.className = "list-item__label";
