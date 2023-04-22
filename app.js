@@ -17,25 +17,25 @@ var createNewTaskElement = function (taskString) {
   const listItem = document.createElement("li");
 
   //input (checkbox)
-  var checkBox = document.createElement("input"); //checkbx
+  const checkBox = document.createElement("input"); //checkbx
   //label
-  var label = document.createElement("label"); //label
+  const label = document.createElement("label"); //label
   //input (text)
-  var editInput = document.createElement("input"); //text
+  const editInput = document.createElement("input"); //text
   //button.edit
-  var editButton = document.createElement("button"); //edit button
+  const editButton = document.createElement("button"); //edit button
 
   //button.delete
-  var deleteButton = document.createElement("button"); //delete button
-  var deleteButtonImg = document.createElement("img"); //delete button image
+  const deleteButton = document.createElement("button"); //delete button
+  const deleteButtonImg = document.createElement("img"); //delete button image
 
   label.innerText = taskString;
-  label.className = "task";
+  label.className = "list-item__label";
 
   //Each elements, needs appending
   checkBox.type = "checkbox";
   editInput.type = "text";
-  editInput.className = "task";
+  editInput.className = "input";
 
   editButton.innerText = "Edit"; //innerText encodes special characters, HTML does not.
   editButton.className = "edit";
