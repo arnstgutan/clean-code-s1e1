@@ -165,11 +165,11 @@
     display: none;
 }
 
-.section__list .list-item.editMode .input-text {
+.section__list .list-item.edit-mode .input-text {
     display: inline-block;
     width: 224px;
 }
 
-.section__list .list-item.editMode .list-item__label {
+.section__list .list-item.edit-mode .list-item__label {
     display: none;
 }
